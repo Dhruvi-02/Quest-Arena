@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px 700px;
+}
+
+.container {
+    border: 3px solid white;
+    height: 300px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(47, 122, 179);
+}
+
+form #pname {
+    font-size: 40px;
+    color:rgb(202, 126, 40);
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    font-family:'Comic Neue',cursive;
+}
+
+form input {
+    height: 25px;
+    width:95%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+form button {
+    height: 10vh;
+    width: 60%;
+    margin-left: 66px;
+    margin-top: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(63, 62, 151);
+    border-radius: 20px;
+    color: rgb(210, 204, 37);
+    font-family:'Comic Neue',cursive;
+}
+
+form #btn:hover {
+    background-color: #1e39cf;
+}
+
+
+
+/* font-family:'Comic Neue',cursive; */
+

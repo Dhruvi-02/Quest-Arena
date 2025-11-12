@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(227, 239, 96),rgb(229, 156, 93));
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.gift {
+    font-size: 200px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    margin-top: 50px;
+}
+
+.gift.opened {
+    transform: scale(1.2) rotate(15deg);
+}
+
+.quote {
+    margin-top: 40px;
+    font-size: 26px;
+    color: #333;
+    opacity: 0;
+    transition: opacity 2s ease;
+    max-width: 700px;
+}

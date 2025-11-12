@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Arena</title>
+    <link rel="stylesheet" href="game.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Quest Arena!</h1>
+        
+        <div class="flip-card" onclick="flipcard(this)">
+            <div class="card front" id="card1-front">?</div>
+            <div class="card back" id="card1-back">I come in once a year bringing joy and gifts!</div>
+        </div>
+
+        <div class="flip-card" onclick="flipcard(this)"> 
+            <div class="card front" id="card2-front">?</div> 
+            <div class="card back" id="card2-back">🌲+💡+🎀</div>
+        </div>
+        
+        <div class="flip-card" onclick="flipcard(this)">
+            <div class="card front" id="card3-front">?</div>
+            <div class="card back" id="card3-back">I have antlers but not a tree, roam in forest, wild and free! Who am I?</div>
+        </div>
+
+        <div class="flip-card" onclick="flipcard(this)"> 
+            <div class="card front" id="card4-front">?</div>
+            <div class="card back" id="card4-back">Unscramble: "IFTGS"</div>
+        </div>
+
+        <div class="secretCode">
+            <label for="ans">Enter Code:</label>
+            <input type="text" placeholder="Enter the code" id="ans" title="First letter should be capital and rest all in lowercase" required/>
+            <button onclick="check()">Submit</button>
+        </div>
+
+    </div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
