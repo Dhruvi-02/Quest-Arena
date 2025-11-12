@@ -20,6 +20,6 @@ How to play:
 - Crack the code using the answers of the four clues
 - Unlock a surprise t the end if you crack the code
 
-Quest Arena is where curiosity meets fun - dive in ans see what unfolds!
+Quest Arena is where curiosity meets fun - dive in and see what unfolds!
 
 Note: js-confetti library is being used in this gaming website for showing confetti celebration
