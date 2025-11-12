@@ -13,7 +13,7 @@ Features:
 - Unlock hidden surprises at th end
 
 How to play:
-- First Signup the Login
+- First Signup then Login
 - Enter player-name
 - Click on cards to flip them
 - Read the clues and solve the puzzle
